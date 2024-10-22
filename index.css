@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: aqua;
+}
+.navbar > ul{
+    display: flex;
+}
+.navbar > ul > li{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.product_card {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+   
+}
+
+.product{
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.product > .product_img{
+    width: 100px;
+}
